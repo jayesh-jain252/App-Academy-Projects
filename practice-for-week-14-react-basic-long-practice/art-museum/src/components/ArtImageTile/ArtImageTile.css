@@ -1,0 +1,23 @@
+.gallery-images {
+  height: 100%;
+  width: 100%;
+  /* margin: 5px; */
+  /* padding: 5px; */
+  border: 1px solid var(--stroke);
+  border-radius: 10px;
+}
+.gallery-image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery-image-grid {
+  display: grid;
+  background-color: var(--card-background);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  height: 780px;
+  width: 100vw;
+  border-radius: 3%;
+  /* margin: 10px; */
+}

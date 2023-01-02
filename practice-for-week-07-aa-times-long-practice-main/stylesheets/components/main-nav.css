@@ -1,0 +1,14 @@
+/* Your code here */
+.main_nav {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav_item {
+  font-size: 12px;
+}

@@ -1,0 +1,72 @@
+/* Your code here */
+.masthead {
+  text-align: center;
+  display: grid;
+  grid-template-areas:
+    "menu-and-search . actions"
+    "technologies technologies technologies"
+    "date logo paper";
+}
+
+.masthead__menu-and-search {
+  grid-area: menu-and-search;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.masthead__menu-and-search div {
+  font-size: 11px;
+  padding: 7px 9px;
+}
+
+.masthead__menu-and-search div:hover {
+  background-color: #f7f7f5;
+}
+
+.masthead__actions {
+  grid-area: actions;
+  padding: 7px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.masthead__technologies {
+  grid-area: technologies;
+  margin: 0 auto;
+}
+
+.technologie_text {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #6f6f6f;
+  margin: 0 5px;
+}
+
+.masthead__date {
+  grid-area: date;
+  font-size: 11px;
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 1px solid #f7f7f5;
+}
+
+.masthead__logo {
+  grid-area: logo;
+  border-bottom: 1px solid #f7f7f5;
+}
+
+.masthead__paper {
+  grid-area: paper;
+  font-size: 11px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid #f7f7f5;
+}
+
+.masthead__paper i {
+  margin-bottom: 6px;
+  margin-right: 5px;
+}

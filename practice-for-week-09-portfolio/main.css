@@ -1,0 +1,20 @@
+.name {
+  color: blueviolet;
+  padding: 20px;
+  text-align: center;
+}
+
+.my-details {
+  border: 1px solid blueviolet;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.detail {
+  list-style: none;
+  padding: 10px 0;
+}
+
+.detail:hover {
+  color: blueviolet;
+}

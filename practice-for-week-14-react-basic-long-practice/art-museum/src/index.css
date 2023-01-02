@@ -1,0 +1,40 @@
+/* TODO Add site wide styles */
+:root {
+  --background: #f4effc;
+  --headline: #1f1135;
+  --sub-headline: #1b1325;
+  --card-background: #e2daeb;
+  --card-headline: #1f1135;
+  --card-paragraph: #1b1325;
+
+  --stroke: #1f1235;
+  --main: #ffffff;
+  --highlight: #ff6e6c;
+  --secondary: #67568c;
+  --tertiary: #fbdd74;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--background) !important;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.app {
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.harvard-art {
+  color: var(--headline);
+  font-size: 50px;
+  text-align: center;
+}
+
+.harvard-art-p {
+  color: rgb(15, 15, 29);
+  font-size: 20px;
+  text-align: center;
+}

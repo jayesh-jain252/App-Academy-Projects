@@ -1,0 +1,50 @@
+.artwork-title {
+  font-weight: bold;
+  color: #fcb315;
+}
+
+.artwork-images {
+  display: inline;
+  height: 600px;
+  width: 600px;
+  padding: 11px;
+}
+
+.image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artwork-text {
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.artwork-link {
+  display: block;
+  text-align: center;
+  color: #4db848;
+}
+
+#return-to-gallery {
+  display: flex;
+  font-size: 15pt;
+  justify-content: center;
+  align-items: center;
+  color: #4db848;
+  font-weight: 700;
+  text-decoration: black overline;
+  border-bottom: black dotted 1px;
+  text-align: center;
+}
+
+.redirect-description {
+  text-align: center;
+  font-weight: 900;
+  color: #fcb315;
+}
+
+.artwork-text {
+  color: #ffde2d !important;
+}

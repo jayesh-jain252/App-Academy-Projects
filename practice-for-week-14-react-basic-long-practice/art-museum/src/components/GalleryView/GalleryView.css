@@ -1,0 +1,11 @@
+.gallery-name {
+  text-align: center;
+  color: var(#1b1325);
+}
+
+.harvard-header {
+  text-align: center;
+  color: var(--stroke);
+  border-top: black solid 5px;
+  width: 100%;
+}

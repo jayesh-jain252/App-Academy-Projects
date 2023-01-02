@@ -1,0 +1,125 @@
+.homepage #catAbb,
+.homepage #go,
+.homepage .leftlinks #cl_app_beta,
+.no-js,
+p.more {
+  display: none;
+}
+
+#logo {
+  font-size: 2.5rem;
+}
+
+.homepage-search .querybox {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 2px solid #464646;
+  font-size: 16px;
+}
+
+.menu.collapsible > li {
+  cursor: pointer;
+}
+
+.menu.collapsible > li.expand.s ul {
+  display: block;
+}
+
+.menu.collapsible > li ul {
+  display: none;
+}
+
+/* Your code here */
+* {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  background-color: Whitesmoke;
+  color: #464646;
+}
+
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+ul {
+  padding: 0;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+a:visited,
+a:visited > span {
+  color: #800080;
+}
+
+a:hover,
+a > span:hover {
+  font-weight: 700;
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#logo a {
+  color: #800080;
+}
+
+#leftbar,
+#center,
+#rightbar {
+  float: left;
+  padding: 0px 30px 0px 30px;
+  box-sizing: border-box;
+}
+
+footer {
+  clear: both;
+}
+
+#leftbar,
+#rightbar {
+  width: 25%;
+}
+
+#center {
+  width: 50%;
+  border: 1px solid #464646;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#topban h2 {
+  text-align: center;
+}
+
+ul.clfooter {
+  max-width: 900px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 10px 0;
+}
+
+ul.clfooter > li {
+  padding-right: 5px;
+}
+
+h4.ban::before {
+  content: "☮";
+  background: linear-gradient(#eebbee, #800080);
+  padding: 1px;
+  border-radius: 3px;
+  color: whitesmoke;
+}
